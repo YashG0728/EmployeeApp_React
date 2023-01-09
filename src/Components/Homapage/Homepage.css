@@ -1,0 +1,152 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid green;
+    width: 80%;
+}
+
+.header {
+    padding: 15px 0;
+    margin-left: 2%;
+    background-color: #fff;
+}
+.emp-text {
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    color: #82a70c;
+    text-transform: capitalize;
+}
+
+.emp-payroll {
+    color: #42515f;
+    font: normal normal bold 20px/25px Montserrat;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0px;
+    margin-left: 5%;
+}
+
+.td1 {
+    padding-left: 7.5%;
+    font-weight: bolder;
+}
+
+.td2 {
+    padding-left: 5%;
+    font-weight: bolder;
+}
+
+.td3 {
+    padding-left: 8%;
+    font-weight: bolder;
+}
+
+.td4 {
+    padding-left: 3.8%;
+    font-weight: bolder;
+}
+
+.td5 {
+    padding-left: 5.8%;
+    font-weight: bolder;
+}
+
+.td6 {
+    padding-left: 5.5%;
+    font-weight: bolder;
+}
+.deletebtn{
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.td7 {
+    padding-left: 6.7%;
+    font-weight: bolder;
+}
+.pageHeader {
+    display: flex;
+    height: 40px;
+}
+
+.a {
+    margin-left: auto;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding: 5px 12px;
+    border: none;
+    background-color: #7c8855;
+}
+
+.b {
+    font-size: 18px;
+    color: antiquewhite;
+    background-color: #82A70C;
+    border: none;
+    margin-left: 4px;
+    padding: 9px 32px;
+    border-radius: 4px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    height: 60px;
+    font-size: 18px;
+    border: none;
+    color: antiquewhite;
+    background-color: #42515F;
+}
+
+.container {
+    width: 90%;
+    padding: 44px 70px;
+}
+
+.img{
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+.search-form {
+	right: 200px;
+	top: 200px;
+}
+
+ .search-field {
+	background-color: transparent;
+	/* background-image: url(../../assets/search.svg); */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	border: none;
+	cursor: pointer;
+	margin-left: auto;
+	padding: 0 0 0 34px;
+	transition: width 400ms ease, background 400ms ease;
+	width:0px;
+    
+}
+
+.search-field:focus {
+	background-color: rgb(241, 235, 235);
+	border: 1px solid #c5c5bc;
+    background-image: none;
+	cursor: text;
+	outline: 0;
+	width: 250px;
+  color:rgb(12, 3, 3);
+}
+.search-form
+.search-submit { 
+display:none;
+}
